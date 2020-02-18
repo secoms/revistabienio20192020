@@ -1,0 +1,52 @@
+.Text {
+}
+.Subtitle {
+	text-transform: capitalize;
+}
+.Olho {
+	position: relative;
+	float: right;
+	max-width: 400px;
+	width: 100%;
+	padding: 25px 35px;
+	.Who {
+        position: relative;
+        text-transform: capitalize;
+        padding-left: 15px;
+		span {
+			display: block;
+			opacity: 0.5;
+		}
+		&::before {
+			content: "-";
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+	.Citation {
+		position: relative;
+		font-size: 1.5em;
+		&:before,
+		&:after {
+			z-index: -1;
+			color: #b8cecc;
+			position: absolute;
+			font-size: 200px;
+			line-height: 0;
+		}
+		&:before {
+			content: "“";
+			top: 50px;
+			left: -25px;
+		}
+		&:after {
+			content: "”";
+			bottom: -25px;
+			right: 0;
+		}
+	}
+	p {
+		margin-top: 0;
+	}
+}

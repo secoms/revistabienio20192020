@@ -1,21 +1,75 @@
 {
-    "revistas":[
+    "materias": [
         {
-            "main":{
-                "title":"",
-                "body":""
-            },
-            "numbers":{
-                "title":"",
-                "body":"",
-                "imgs":[
-
+            "topicoid": "04",
+            "main": {
+                "title": "Ouvidoria alcança 93% de solução em ocorrências",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Parece uma prova de atletismo, precisamente na modalidade de salto em altura, na qual a medida que o tempo passa a marca a ser superada vai ser tornando mais alta. Foi assim que ocorreu com o desempenho da Ouvidoria do TJRN no ano de 2019 em relação ao percentual de solução das demandas apresentadas pela população. Observe: Em setembro, o índice era de 88%. Passou em outubro para 90% e fechou o ano com 93%. Um crescimento de cinco pontos em três meses."
+                    },
+                    {
+                        "type": "olho",
+                        "who":"des. Vivaldo Pinheiro",
+                        "position":"Ouvidor geral",
+                        "content": "Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços"
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços”, ressalta o desembargador Vivaldo Pinheiro, ouvidor geral."
+                    },
+                    {
+                        "type": "text",
+                        "content": "A Ouvidoria é o órgão do Tribunal responsável por atender as demandas dos cidadãos que buscam o contato com Poder Judiciário estadual, seja no âmbito processual ou administrativo. As demandas da população são recebidas pela unidade por meio de seus canais de atendimento, e-mail, formulário físico (disponível em prédios judiciais) e através do portal do TJRN na internet."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "VOCAÇÃO MEDIADORA"
+                    },
+                    {
+                        "type": "text",
+                        "content": "É importante deixar claro que a Ouvidoria não é um órgão resolutivo, mas mediador, sempre buscando agilizar a resposta, o encaminhamento de solução ao pedido, pleito ou demanda encaminhados pelo cidadão. As respostas aos jurisdicionados vem das unidades demandadas dentro do prazo legal de 15 dias."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Nos últimos anos, a unidade vem avançando no atendimento à população. Em 2018, foi criado o e-Ouvidoria, sistema que recebe as demandas da população, implantado na gestão do desembargador João Rebouças. O acesso é simples. Ao entrar no Portal do Judiciário (www.tjrn.jus.br), basta clicar na aba OUVIDORIA, ao lado direito dos itens de acesso rápido. Depois, é só preencher informações como número do CPF, dados pessoais e criar uma senha para acessos. Esta etapa é essencial, pois permite que o usuário possa acompanhar sua demanda e ver como ela está sendo atendida. O sistema envia para o e-mail do cidadão informações sobre o andamento da ocorrência aberta até a sua conclusão."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "APERFEIÇOAR"
+                    },
+                    {
+                        "type": "text",
+                        "content": "A unidade pretende manter o foco no acompanhamento periódico e sistemático das ocorrências em atraso, de maneira comprometida e em respeito ao usuário como parte hipossuficiente na demanda."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“A nossa atribuição é ser um canal entre a sociedade e o Judiciário, de intermediar, de ser uma porta para que o cidadão acesse os serviços judiciários de forma simples, transparente e da maneira mais rápida possível”, complementa Teresa Paiva de Oliveira, assessora da Ouvidoria."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Serviços do Poder Judiciário como a Unidade Móvel de Trânsito, Juizado do Aeroporto e a própria Ouvidoria recebem constantes elogios da população, de pessoas que tiveram seus pleitos resolvidos com atenção, presteza e agilidade por magistrados e servidores da Justiça."
+                    }
                 ]
             },
+            "numbers": {
+                "title": "",
+                "body": "",
+                "imgs": []
+            },
             "highlight": {
-                "title":"",
-                "body":""
+                "title": "",
+                "body": ""
             }
         }
     ]
 }
+
+
+
+
+
+
+
+

@@ -1,5 +1,72 @@
-.Slider{
-    .SliderCard{
-        padding: 15px;
-    }
+@import "../../assets/scss/constants.scss";
+
+.Slider {
+	position: relative;
+	max-width: 100%;
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	.SliderCard {
+		box-sizing: border-box;
+		padding: 15px;
+	}
+	.SliderCardInfos {
+		display: block;
+		border-radius: 5px;
+		box-sizing: border-box;
+		padding: 15px;
+		color: $white;
+		text-decoration: none;
+		transition: 0.3s;
+		opacity: 0.9;
+		cursor: pointer;
+		outline: none;
+		&:hover,
+		&:active,
+		&:focus {
+			opacity: 1;
+			box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.6);
+		}
+		.Title {
+			font-size: 1.5em;
+			min-height: 130px;
+			margin-top: 0;
+		}
+		footer {
+			display: flex;
+			align-items: stretch;
+			justify-content: flex-start;
+		}
+		.Arrow {
+			position: relative;
+			width: 100%;
+			height: 30px;
+			&::before {
+				content: "";
+				position: absolute;
+				background-color: $white;
+				margin-left: 10px;
+				width: calc(100% - 10px);
+				height: 4px;
+				top:12px;
+				left: 0;
+				border-radius: 5px;
+			}
+			&::after {
+				content: "";
+				position: absolute;
+				width: 10px;
+				height: 10px;
+				top: 7px;
+				right: 0;
+				transform: rotate(45deg);
+				border-radius: 5px;
+				border-left: 0px solid transparent;
+				border-bottom: 0px solid transparent;
+				border-top: 4px solid white;
+				border-right: 4px solid white;
+			}
+		}
+	}
 }

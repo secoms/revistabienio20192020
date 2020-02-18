@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 import Home from "./containers/Home/Home";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
@@ -11,6 +10,7 @@ function App() {
       <Layout>
         <Switch>
           <Route path="/" exact component={Home} />
+          <Redirect to="/"/>
         </Switch>
       </Layout>
     </div>
