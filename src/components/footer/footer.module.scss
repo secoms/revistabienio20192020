@@ -1,0 +1,23 @@
+.Footer {
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: #fafafa;
+    overflow: hidden;
+    padding-bottom: 60px;
+	.BgPaper {
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+	.Logo {
+		margin: 30px auto;
+		height: auto;
+		max-width: 250px;
+		width: 50%;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

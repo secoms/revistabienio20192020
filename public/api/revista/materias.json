@@ -1,0 +1,21 @@
+{
+    "revistas":[
+        {
+            "main":{
+                "title":"",
+                "body":""
+            },
+            "numbers":{
+                "title":"",
+                "body":"",
+                "imgs":[
+
+                ]
+            },
+            "highlight": {
+                "title":"",
+                "body":""
+            }
+        }
+    ]
+}
