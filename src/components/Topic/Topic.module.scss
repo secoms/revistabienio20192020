@@ -1,0 +1,32 @@
+.Topic {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.Video {
+	position: relative;
+	iframe {
+		width: 100% !important;
+		* {
+			background-color: #fff !important;
+		}
+	}
+	.BgPaper {
+		position: absolute;
+		margin: 0;
+		top: 0;
+		left: 0;
+		img {
+			width: 120%;
+			margin: 0 -10%;
+			height: auto;
+		}
+		&.Flip {
+			top: auto;
+			bottom: 0;
+			transform: rotate(180deg);
+		}
+	}
+}

@@ -25,7 +25,7 @@ const slider = props => {
                 breakpoint: 991,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 2,
+                    slidesToScroll: 3,
                 }
             },
             {
@@ -48,16 +48,19 @@ const slider = props => {
     let slider = null
     if (props.items) {
         let items = Object.keys(props.items).map(key => {
+            let styleClasses = classes.SliderCard;
+            if (props.activeTopico && props.activeTopico === props.items[key].id) styleClasses += " " + classes.Active
             return (
-                <div key={props.items[key].id} className={classes.SliderCard} >
-                    <div tabIndex="0" onClick={(event, key) => props.setActiveTopico(event, key)} className={classes.SliderCardInfos} style={{ backgroundColor: styles[key] }} >
+                <div key={props.items[key].id} className={styleClasses} >
+                    <button href="#" onClick={(event) => {props.setActiveTopico(event, props.items[key].id)
+                    }} className={classes.SliderCardInfos} style={{ backgroundColor: styles[key] }} >
                         <h2 className={classes.Title}>{props.items[key].title}</h2>
                         <p>{props.items[key].body}</p>
                         <footer>
                             <span>{props.items[key].position}</span>
                             <span className={classes.Arrow}></span>
                         </footer>
-                    </div>
+                    </button>
                 </div>
             )
         })

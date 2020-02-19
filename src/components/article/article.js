@@ -4,7 +4,7 @@ import classes from './article.module.scss'
 
 const article = (props) => {
     let body = null
-    if (props.materia) {
+    if (props.open && props.materia) {
         body = props.materia.main.body.map(section => {
             const key = new Date().getMilliseconds + "" + Math.random(200)
             switch (section.type) {

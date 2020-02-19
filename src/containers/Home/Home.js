@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Header from "../../components/header/header";
 import Slider from "../../components/slider/slider";
 import Footer from "../../components/footer/footer";
-import Article from "../../components/article/article";
+import Topic from "../../components/Topic/Topic";
 
 import Axios from 'axios';
 import { API_MATERIAS, API_TOPICOS } from "../../utils/constants";
@@ -14,8 +14,6 @@ class Home extends Component {
             topicos: null,
             materias: null,
             activeTopico: null,
-            activeMateria: null,
-
         }
     }
 
@@ -38,27 +36,39 @@ class Home extends Component {
         this.getMaterias()
     }
 
-    setActiveTopico = (event, topicoid) => {
+    setActiveTopicoHandler = (event, topicoid) => {
         event.preventDefault()
-        console.log(event);
-        console.log(topicoid);
-
-        this.setState({ ...this.state, topicoid })
+        if (this.state.activeTopico !== topicoid) this.setState({ ...this.state,  activeTopico: topicoid })
+        else this.setState({ ...this.state,  activeTopico: null })
     }
 
+    
+    setTopicosHandler = (topicos) => {
+        return topicos.filter( topico => (topico.id === this.state.activeTopico))
+    }
+
+    setMateriasHandler = (materias, materiaID) => {
+        return materias.filter( materia => (materia.topicoid === materiaID))
+    }
+    
     render() {
 
         const slider = (this.state.topicos) 
-            ? <Slider items={this.state.topicos} setActiveTopico={this.setActiveTopico} /> 
+            ? <Slider items={this.state.topicos} setActiveTopico={this.setActiveTopicoHandler} activeTopico={this.state.activeTopico} /> 
             : null
 
-        const materia = (this.state.materias) ? <Article materia={this.state.materias[0]} /> : null
-
+        let topico = null
+        if (this.state.activeTopico) {
+            topico = <Topic
+                topico={this.setTopicosHandler(this.state.topicos)}
+                materias={this.setMateriasHandler(this.state.materias, this.state.activeTopico)} 
+                /> 
+        }
         return (
             <div>
                 <Header />
                 {slider}
-                {materia}
+                {topico}
                 <Footer />
             </div>
         )
