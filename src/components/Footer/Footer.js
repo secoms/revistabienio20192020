@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './footer.module.scss'
+import classes from './Footer.module.scss'
 import bg_pager from '../../dist/imgs/bg_pager.png'
 import logoTj from '../../dist/imgs/logo_tj.png'
 

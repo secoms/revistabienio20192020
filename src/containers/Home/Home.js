@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Header from "../../components/header/header";
-import Slider from "../../components/slider/slider";
-import Footer from "../../components/footer/footer";
+import Header from "../../components/Header/Header";
+import Slider from "../../components/Slider/Slider";
+import Footer from "../../components/Footer/Footer";
 import Topic from "../../components/Topic/Topic";
 
 import Axios from 'axios';
@@ -19,7 +19,7 @@ class Home extends Component {
 
     getTopicos = () => {
         Axios.get(API_TOPICOS).then(response => {
-            this.setState({ ...this.state, topicos: response.data.topicos })
+            this.setState({ ...this.state, topicos: response.data.topicos, activeTopico: "04" })
         }).catch(error => {
         })
     }
@@ -32,37 +32,37 @@ class Home extends Component {
     }
 
     componentDidMount() {
-        this.getTopicos()
         this.getMaterias()
+        this.getTopicos()
     }
 
     setActiveTopicoHandler = (event, topicoid) => {
         event.preventDefault()
-        if (this.state.activeTopico !== topicoid) this.setState({ ...this.state,  activeTopico: topicoid })
-        else this.setState({ ...this.state,  activeTopico: null })
+        if (this.state.activeTopico !== topicoid) this.setState({ ...this.state, activeTopico: topicoid })
+        else this.setState({ ...this.state, activeTopico: null })
     }
 
-    
+
     setTopicosHandler = (topicos) => {
-        return topicos.filter( topico => (topico.id === this.state.activeTopico))
+        return topicos.filter(topico => (topico.id === this.state.activeTopico))
     }
 
     setMateriasHandler = (materias, materiaID) => {
-        return materias.filter( materia => (materia.topicoid === materiaID))
+        return materias.filter(materia => (materia.topicoid === materiaID))
     }
-    
+
     render() {
 
-        const slider = (this.state.topicos) 
-            ? <Slider items={this.state.topicos} setActiveTopico={this.setActiveTopicoHandler} activeTopico={this.state.activeTopico} /> 
+        const slider = (this.state.topicos)
+            ? <Slider items={this.state.topicos} setActiveTopico={this.setActiveTopicoHandler} activeTopico={this.state.activeTopico} />
             : null
 
         let topico = null
         if (this.state.activeTopico) {
             topico = <Topic
                 topico={this.setTopicosHandler(this.state.topicos)}
-                materias={this.setMateriasHandler(this.state.materias, this.state.activeTopico)} 
-                /> 
+                materias={this.setMateriasHandler(this.state.materias, this.state.activeTopico)}
+            />
         }
         return (
             <div>

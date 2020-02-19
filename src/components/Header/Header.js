@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './header.module.scss'
+import classes from './Header.module.scss'
 import logo from '../../dist/imgs/logo_revista_h.png'
 
 const header = props => {

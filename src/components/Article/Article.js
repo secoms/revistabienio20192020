@@ -1,9 +1,11 @@
 import React from 'react'
-import classes from './article.module.scss'
+import classes from './Article.module.scss'
 
 
 const article = (props) => {
     let body = null
+    let mainTitle = null
+
     if (props.open && props.materia) {
         body = props.materia.main.body.map(section => {
             const key = new Date().getMilliseconds + "" + Math.random(200)
@@ -20,12 +22,21 @@ const article = (props) => {
                 default: return ""
             }
         })
+        mainTitle = ((props.activeMateria === props.materia.id))
+            ? <h1 onClick={(event) => props.toOpen(event, props.materia.id)}>{props.materia.main.title}</h1>
+            : null
+    }else {
+        mainTitle = (props.materia.main.title)
+            ? <h1 onClick={(event) => props.toOpen(event, props.materia.id)}>{props.materia.main.title}</h1>
+            : null
     }
-    const mainTitle = (props.materia.main.title)
-        ? <h1>{props.materia.main.title}</h1>
-        : null
+
+
+    console.log((props.activeMateria == props.materia.id))
+    console.log(props.materia.id)
+    console.log(props.activeMateria)
     return (
-        <article className={"container " + classes.Article}>
+        <article className={classes.Article}>
             {mainTitle}
             {body}
         </article>

@@ -9,11 +9,12 @@
 	max-width: 400px;
 	width: 100%;
 	padding: 25px 35px;
+	box-sizing: border-box;
 	margin-top: 15px;
 	.Who {
-        position: relative;
-        text-transform: capitalize;
-        padding-left: 15px;
+		position: relative;
+		text-transform: capitalize;
+		padding-left: 15px;
 		span {
 			display: block;
 			opacity: 0.5;
