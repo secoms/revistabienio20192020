@@ -4,64 +4,61 @@ import Slider from "../../components/Slider/Slider";
 import Footer from "../../components/Footer/Footer";
 import Topic from "../../components/Topic/Topic";
 
-import Axios from 'axios';
-import { API_MATERIAS, API_TOPICOS } from "../../utils/constants";
+// import { API_MATERIAS, API_TOPICOS } from "../../utils/constants";
+import { connect } from 'react-redux';
+import * as actions from '../../store/actions/index'
 
 class Home extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            topicos: null,
-            materias: null,
-            activeTopico: null,
+
+    componentDidMount() {
+        this.props.onInitTopicos()
+        this.props.onInitMaterias()
+    }
+
+    clearAllActive = () => {
+        this.props.resetActiveTopico()
+        this.props.resetActiveMateria()
+    }
+
+    setActiveTopicoHandler = (event, topico) => {
+
+        console.log('setActiveTopicoHandler', topico)
+        event.preventDefault()
+        if (this.props.activeTopico) {
+            if (this.props.activeTopico.id === topico.id) this.clearAllActive()
+            else this.props.setActiveTopico(topico)
+        } else {
+            this.props.setActiveTopico(topico)
         }
     }
 
-    getTopicos = () => {
-        Axios.get(API_TOPICOS).then(response => {
-            this.setState({ ...this.state, topicos: response.data.topicos, activeTopico: "04" })
-        }).catch(error => {
-        })
-    }
-
-    getMaterias = () => {
-        Axios.get(API_MATERIAS).then(response => {
-            this.setState({ ...this.state, materias: response.data.materias })
-        }).catch(error => {
-        })
-    }
-
-    componentDidMount() {
-        this.getMaterias()
-        this.getTopicos()
-    }
-
-    setActiveTopicoHandler = (event, topicoid) => {
-        event.preventDefault()
-        if (this.state.activeTopico !== topicoid) this.setState({ ...this.state, activeTopico: topicoid })
-        else this.setState({ ...this.state, activeTopico: null })
-    }
 
 
-    setTopicosHandler = (topicos) => {
-        return topicos.filter(topico => (topico.id === this.state.activeTopico))
+    setTopicosHandler = (topicos,topicoID) => {
+        return topicos.filter(topico => (topico.id === topicoID))
     }
 
     setMateriasHandler = (materias, materiaID) => {
-        return materias.filter(materia => (materia.topicoid === materiaID))
+        return (materias) ? materias.filter(materia => (materia.topicoid === materiaID)) : null
     }
 
     render() {
 
-        const slider = (this.state.topicos)
-            ? <Slider items={this.state.topicos} setActiveTopico={this.setActiveTopicoHandler} activeTopico={this.state.activeTopico} />
-            : null
+        const slider = (this.props.topicos)
+            ? (
+                <Slider
+                    items={this.props.topicos}
+                    setActiveTopico={this.setActiveTopicoHandler}
+                    activeTopico={(this.props.activeTopico)
+                        ? this.props.activeTopico.id
+                        : null} />
+            ) : null
 
         let topico = null
-        if (this.state.activeTopico) {
+        if (this.props.activeTopico) {
             topico = <Topic
-                topico={this.setTopicosHandler(this.state.topicos)}
-                materias={this.setMateriasHandler(this.state.materias, this.state.activeTopico)}
+                topico={this.setTopicosHandler(this.props.topicos, this.props.activeTopico.id)}
+                materias={this.setMateriasHandler(this.props.materias, this.props.activeTopico)}
             />
         }
         return (
@@ -75,4 +72,24 @@ class Home extends Component {
     }
 }
 
-export default Home
+const mapStateToProps = state => {
+    return {
+        topicos: state.topicos.topicos,
+        activeTopico: state.topicos.activeTopico,
+        materias: state.materias.materias,
+        activeMateria: state.materias.activeMateria,
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        onInitTopicos: () => dispatch(actions.initTopicos()),
+        onInitMaterias: () => dispatch(actions.initMaterias()),
+        setActiveTopico: (topico) => dispatch(actions.setActiveTopico(topico)),
+        resetActiveTopico: () => dispatch(actions.setActiveTopico()),
+        resetActiveMateria: () => dispatch(actions.setActiveMateria()),
+
+
+    }
+}
+export default connect(mapStateToProps, mapDispatchToProps)(Home)

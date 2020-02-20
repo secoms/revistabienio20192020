@@ -47,17 +47,20 @@ const slider = props => {
 
     let slider = null
     if (props.items) {
-        let items = Object.keys(props.items).map(key => {
+        let indexColor = 0
+        let items = props.items.map(item => {
             let styleClasses = classes.SliderCard;
-            if (props.activeTopico && props.activeTopico === props.items[key].id) styleClasses += " " + classes.Active
+            if (props.activeTopico && props.activeTopico === item.id) styleClasses += " " + classes.Active
             return (
-                <div key={props.items[key].id} className={styleClasses} >
-                    <button href="#" onClick={(event) => {props.setActiveTopico(event, props.items[key].id)
-                    }} className={classes.SliderCardInfos} style={{ backgroundColor: styles[key] }} >
-                        <h2 className={classes.Title}>{props.items[key].title}</h2>
-                        <p>{props.items[key].body}</p>
+                <div key={item.id} className={styleClasses} >
+                    <button
+                        href="#"
+                        onClick={(event) => { props.setActiveTopico(event, item) }}
+                        className={classes.SliderCardInfos} style={{ backgroundColor: styles[indexColor++] }}>
+                        <h2 className={classes.Title}>{item.title}</h2>
+                        <p>{item.body}</p>
                         <footer>
-                            <span>{props.items[key].position}</span>
+                            <span>{item.position}</span>
                             <span className={classes.Arrow}></span>
                         </footer>
                     </button>

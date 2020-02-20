@@ -32,7 +32,7 @@ const article = (props) => {
     }
 
 
-    console.log((props.activeMateria == props.materia.id))
+    console.log((props.activeMateria === props.materia.id))
     console.log(props.materia.id)
     console.log(props.activeMateria)
     return (

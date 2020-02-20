@@ -1,15 +1,19 @@
 import React from 'react';
 import './App.scss';
-import Home from "./containers/Home/Home";
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import Layout from './hoc/Layout/Layout';
+import asyncComponent from "./hoc/asyncComponent";
+
+const asyncHome = asyncComponent(() =>{
+  return import ("./containers/Home/Home")
+})
 
 function App() {
   return (
     <div className="app">
       <Layout>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={asyncHome} />
           <Redirect to="/"/>
         </Switch>
       </Layout>

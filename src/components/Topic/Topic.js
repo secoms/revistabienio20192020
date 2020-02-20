@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import bg_pager from '../../dist/imgs/bg_pager.png'
 import classes from './Topic.module.scss'
 import Title from "../../components/Title/Title";
 import Article from "../Article/Article";
+import Video from '../Video/Video';
 
 class Topic extends Component {
     constructor(props) {
@@ -56,15 +56,7 @@ class Topic extends Component {
 
         return (
             <section className={classes.Topic}>
-                <div className={classes.Video}>
-                    <figure className={classes.BgPaper}>
-                        <img src={bg_pager} alt="" />
-                    </figure>
-                    {/* <iframe width="1612" height="786" src="https://www.youtube.com/embed/OEqTnGCcLUk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe> */}
-                    <figure className={classes.BgPaper + " " + classes.Flip}>
-                        <img src={bg_pager} alt="" />
-                    </figure>
-                </div>
+                {/* <Video /> */}
                 <div className={"container"}>
                     {title}
                     {materias}

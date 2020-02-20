@@ -6,7 +6,7 @@ const header = props => {
     return (
         <header className={classes.Header}>
             <figure className={classes.Logo}>
-                <img src={logo} />
+                <img src={logo}  alt=""/>
             </figure>
 
         </header>
