@@ -1,8 +1,32 @@
-.Text {
+@import "../../assets//scss/constants.scss";
+
+.Materia {
+	box-sizing: border-box;
+	position: relative;
 }
 .Subtitle {
 	text-transform: capitalize;
 }
+
+.BtnClose {
+	cursor: pointer;
+	border: 2px solid $color_topic_02;
+	border-radius: 5px;
+	padding: 10px 25px;
+	background-color: transparent;
+	text-transform: uppercase;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateY(-100%);
+	overflow: hidden;
+	transition: 0.2s;
+	&:hover {
+		color: $white;
+		background-color: $color_topic_02;
+	}
+}
+
 .Olho {
 	position: relative;
 	float: right;

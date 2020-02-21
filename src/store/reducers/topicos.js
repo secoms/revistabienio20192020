@@ -20,7 +20,6 @@ const fetchErrorTopicos = (state, action) => {
 }
 
 const setActiveTopico = (state, action) => {
-    console.log('actions -> activeTopico', action.activeTopico)
     return updateObject(state, {
         activeTopico:action.activeTopico
     })

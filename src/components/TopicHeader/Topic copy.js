@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import classes from './Topic.module.scss'
-import Title from "../../components/Title/Title";
+import Title from "../Title/Title";
 import Article from "../Article/Article";
 import Video from '../Video/Video';
 
@@ -40,7 +40,6 @@ class Topic extends Component {
     }
 
     render() {
-        console.log(this.props);
 
         const title = (this.props.topico[0]) ? <Title>{this.props.topico[0].title}</Title> : null
         if (this.props.materia) {

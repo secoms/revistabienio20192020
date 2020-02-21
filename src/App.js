@@ -8,6 +8,9 @@ const asyncHome = asyncComponent(() =>{
   return import ("./containers/Home/Home")
 })
 
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
+
 function App() {
   return (
     <div className="app">
