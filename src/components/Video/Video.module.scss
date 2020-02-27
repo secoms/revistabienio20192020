@@ -1,6 +1,14 @@
 .Video {
 	position: relative;
-	iframe {
+
+	padding-bottom: 45%;
+    position: relative;
+    overflow: hidden;
+    video {
+		position: absolute;
+		top: 0;
+		margin: auto;
+		transform: translateY(-20%);
 		width: 100% !important;
 		* {
 			background-color: #fff !important;
@@ -13,6 +21,7 @@
 	margin: 0;
 	top: 0;
 	left: 0;
+	z-index: 9;
 	img {
 		width: 120%;
 		margin: 0 -10%;
@@ -20,7 +29,7 @@
 	}
 	&.Flip {
 		top: auto;
-		bottom: 0;
+		bottom: -5px;
 		transform: rotate(180deg);
 	}
 }

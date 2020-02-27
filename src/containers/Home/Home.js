@@ -21,16 +21,16 @@ class Home extends Component {
      *  UPDATE STATE ACTIVE OR DESACTIVE
      */
     
-    clearAllActive = () => {
+    clearAllActives = () => {
         this.props.resetActiveTopico()
         this.props.resetActiveMateria()
     }
     
     setActiveTopicoHandler = (event, topico) => {
-        this.clearAllActive()
+        this.clearAllActives()
         event.preventDefault()
         if (this.props.activeTopico) {
-            if (this.props.activeTopico.id === topico.id)  this.clearAllActive()
+            if (this.props.activeTopico.id === topico.id) this.clearAllActives()
             else this.props.setActiveTopico(topico)
         } else {
             this.props.setActiveTopico(topico)
@@ -75,19 +75,19 @@ class Home extends Component {
                         : null} />
             ) : null
 
-        let topico, areaMaterias = null
+        let topicHeader, areaMaterias = null
         if (this.props.activeTopico) {
-            topico = <TopicHeader topico={this.setTopicosHandler(this.props.topicos, this.props.activeTopico.id)} />
+            topicHeader = <TopicHeader topico={this.setTopicosHandler(this.props.topicos, this.props.activeTopico.id)} />
             if (this.props.activeMateria)
                 areaMaterias = this.setMateriaHandler(this.props.activeMateria)
             else
                 areaMaterias = this.setListMateriasHandler(this.props.materias, this.props.activeTopico.id)
-        }
+        } 
         return (
             <div>
                 <Header />
                 {slider}
-                {topico}
+                {topicHeader}
                 {areaMaterias}
                 <Footer />
             </div>

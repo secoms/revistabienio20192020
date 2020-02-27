@@ -1,19 +1,26 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { VIDEOS_URL } from "../../utils/constants";
 import bg_pager from '../../dist/imgs/bg_pager.png'
 import classes from "./Video.module.scss";
 
 const Video = (props) => {
-    
-    return (
-        <div className={classes.Video}>
+    console.log(props.video)
+    const videoArea = (!props.video)
+        ? null
+        : <div className={classes.Video}>
             <figure className={classes.BgPaper}>
                 <img src={bg_pager} alt="" />
             </figure>
-            <iframe width="1612" height="786" src="https://www.youtube.com/embed/OEqTnGCcLUk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" autoplay allowfullscreen></iframe>
+            <video key={VIDEOS_URL + props.video} width="100%" height="auto" autoPlay  loop muted>
+                <source
+                    src={VIDEOS_URL + props.video}
+                    type="video/mp4" />
+            </video>
             <figure className={classes.BgPaper + " " + classes.Flip}>
                 <img src={bg_pager} alt="" />
             </figure>
         </div>
-    )
+
+    return (videoArea)
 }
 export default Video

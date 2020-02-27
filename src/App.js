@@ -9,7 +9,7 @@ const asyncHome = asyncComponent(() =>{
 })
 
 
-const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
+// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
 
 function App() {
   return (
