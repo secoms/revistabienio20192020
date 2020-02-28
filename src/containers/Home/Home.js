@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import TopicHeader from "../../components/TopicHeader/TopicHeader";
 import Materia from "../../components/Materia/Materia";
 import ListMaterias from "../../components/ListMaterias/ListMaterias";
-
+import { smothScroll } from '../../utils/utility'
 // import { API_MATERIAS, API_TOPICOS } from "../../utils/constants";
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index'
@@ -20,33 +20,42 @@ class Home extends Component {
     /**
      *  UPDATE STATE ACTIVE OR DESACTIVE
      */
-    
+
     clearAllActives = () => {
         this.props.resetActiveTopico()
         this.props.resetActiveMateria()
     }
-    
+
     setActiveTopicoHandler = (event, topico) => {
+        let moveDown = false
         this.clearAllActives()
         event.preventDefault()
         if (this.props.activeTopico) {
             if (this.props.activeTopico.id === topico.id) this.clearAllActives()
-            else this.props.setActiveTopico(topico)
+            else {
+                this.props.setActiveTopico(topico)
+                moveDown = true
+            }
         } else {
             this.props.setActiveTopico(topico)
+            moveDown = true
+        }
+
+        if (moveDown) { 
+            smothScroll('.MainSlider', 1000)
         }
     }
-    
+
     setActiveMateriaHandler = (event, materia) => {
         event.preventDefault()
         this.props.setActiveMateria(materia)
     }
-    
+
     resetActiveMateriaHandler = (event) => {
         event.preventDefault()
         this.props.resetActiveMateria()
     }
-    
+
     /**
      *  SET Topico, List of Materia HANDLER 
      */
@@ -82,7 +91,7 @@ class Home extends Component {
                 areaMaterias = this.setMateriaHandler(this.props.activeMateria)
             else
                 areaMaterias = this.setListMateriasHandler(this.props.materias, this.props.activeTopico.id)
-        } 
+        }
         return (
             <div>
                 <Header />

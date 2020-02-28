@@ -24,7 +24,7 @@
 		color: $white;
 		text-decoration: none;
 		opacity: 0.9;
-		cursor: pointer;
+		// cursor: pointer;
 		outline: none;
 		font-size: 1em;
 		text-align: left;
@@ -40,39 +40,78 @@
 			min-height: 130px;
 			margin-top: 0;
 		}
-		footer {
-			display: flex;
-			align-items: stretch;
-			justify-content: flex-start;
-		}
-		.Arrow {
+
+		.BtnLink {
 			position: relative;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: $white;
+			text-align: center;
+			padding: 5px 15px;
 			width: 100%;
-			height: 30px;
-			&::before {
-				content: "";
-				position: absolute;
-				background-color: $white;
-				margin-left: 10px;
-				width: calc(100% - 10px);
-				height: 4px;
-				top: 12px;
-				left: 0;
-				border-radius: 5px;
+			display: inline-block;
+			box-sizing: border-box;
+			border-radius: 5px;
+			background-color: lighten(#945b7c, 15%);
+			overflow: hidden;
+			transition: 300ms;
+			&[data-color="#945b7c"] {
+				background-color: lighten(#945b7c, 15%);
 			}
-			&::after {
+			&[data-color="#056663"] {
+				background-color: lighten(#056663, 15%);
+			}
+			&[data-color="#1d81a1"] {
+				background-color: lighten(#1d81a1, 15%);
+			}
+			&[data-color="#e55c5c"] {
+				background-color: lighten(#e55c5c, 15%);
+			}
+			&[data-color="#f09333"] {
+				background-color: lighten(#f09333, 15%);
+			}
+			&[data-color="#128848"] {
+				background-color: lighten(#128848, 15%);
+			}
+			&:hover {
+				&[data-color="#945b7c"] {
+					background-color: darken(#945b7c, 5%);
+				}
+				&[data-color="#056663"] {
+					background-color: darken(#056663, 5%);
+				}
+				&[data-color="#1d81a1"] {
+					background-color: darken(#1d81a1, 5%);
+				}
+				&[data-color="#e55c5c"] {
+					background-color: darken(#e55c5c, 5%);
+				}
+				&[data-color="#f09333"] {
+					background-color: darken(#f09333, 5%);
+				}
+				&[data-color="#128848"] {
+					background-color: darken(#128848, 5%);
+				}
+			}
+			&:before {
 				content: "";
+				width: 30px;
+				height: 100px;
+				background-color: #fff;
 				position: absolute;
-				width: 10px;
-				height: 10px;
-				top: 7px;
-				right: 0;
-				transform: rotate(45deg);
-				border-radius: 5px;
-				border-left: 0px solid transparent;
-				border-bottom: 0px solid transparent;
-				border-top: 4px solid white;
-				border-right: 4px solid white;
+				transform: rotate(-45deg) translateY(50%);
+				bottom: 0;
+				perspective: 100px;
+				left: -100px;
+				transition: 0ms;
+			}
+		}
+		&:hover .BtnLink {
+			background-color: darken(#945b7c, 5%);			
+			&:before {
+				width: 30px;
+				left: 100%;
+				transition: 800ms;
 			}
 		}
 	}

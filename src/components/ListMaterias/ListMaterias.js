@@ -18,7 +18,6 @@ const listMaterias = (props) => {
         })
     }
 
-
     return (
         <ul className={classes.ListMaterias + " container"}>
             {links}

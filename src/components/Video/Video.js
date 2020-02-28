@@ -4,7 +4,6 @@ import bg_pager from '../../dist/imgs/bg_pager.png'
 import classes from "./Video.module.scss";
 
 const Video = (props) => {
-    console.log(props.video)
     const videoArea = (!props.video)
         ? null
         : <div className={classes.Video}>
