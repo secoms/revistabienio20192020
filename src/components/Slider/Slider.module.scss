@@ -57,47 +57,46 @@
 			transition: 300ms;
 			&[data-color="#945b7c"] {
 				background-color: lighten(#945b7c, 15%);
+				&:hover {
+					background-color: darken(#945b7c, 5%);
+				}
 			}
 			&[data-color="#056663"] {
 				background-color: lighten(#056663, 15%);
+				&:hover {
+					background-color: darken(#056663, 5%);
+				}
 			}
 			&[data-color="#1d81a1"] {
 				background-color: lighten(#1d81a1, 15%);
+				&:hover {
+					background-color: darken(#1d81a1, 5%);
+				}
 			}
 			&[data-color="#e55c5c"] {
 				background-color: lighten(#e55c5c, 15%);
+				&:hover {
+					background-color: darken(#e55c5c, 5%);
+				}
 			}
 			&[data-color="#f09333"] {
 				background-color: lighten(#f09333, 15%);
+				&:hover {
+					background-color: darken(#f09333, 5%);
+				}
 			}
 			&[data-color="#128848"] {
 				background-color: lighten(#128848, 15%);
-			}
-			&:hover {
-				&[data-color="#945b7c"] {
-					background-color: darken(#945b7c, 5%);
-				}
-				&[data-color="#056663"] {
-					background-color: darken(#056663, 5%);
-				}
-				&[data-color="#1d81a1"] {
-					background-color: darken(#1d81a1, 5%);
-				}
-				&[data-color="#e55c5c"] {
-					background-color: darken(#e55c5c, 5%);
-				}
-				&[data-color="#f09333"] {
-					background-color: darken(#f09333, 5%);
-				}
-				&[data-color="#128848"] {
+				&:hover {
 					background-color: darken(#128848, 5%);
 				}
 			}
+
 			&:before {
 				content: "";
 				width: 30px;
 				height: 100px;
-				background-color: #fff;
+				background-color: #ffffff55;
 				position: absolute;
 				transform: rotate(-45deg) translateY(50%);
 				bottom: 0;
@@ -107,7 +106,6 @@
 			}
 		}
 		&:hover .BtnLink {
-			background-color: darken(#945b7c, 5%);			
 			&:before {
 				width: 30px;
 				left: 100%;

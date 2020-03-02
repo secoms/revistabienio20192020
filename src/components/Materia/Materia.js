@@ -27,8 +27,8 @@ const article = (props) => {
 
     return (
         <article className={classes.Materia + " container"}>
-            <button className={classes.BtnClose} onClick={(event) => props.close(event)}>
-                ver todas
+            <button className={classes.BtnClose} onClick={(event) => props.close(event)} title="Exibir matérias do tópico">
+                voltar
             </button>
             {mainTitle}
             {body}
