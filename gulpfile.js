@@ -7,6 +7,7 @@ let cleanCss = require('gulp-clean-css');
 
 function processImg() {
     return gulp.src([
+        'src/assets/imgs/**/*.svg',
         'src/assets/imgs/**/*.jpg',
         'src/assets/imgs/**/*.jpeg',
         'src/assets/imgs/**/*.png',

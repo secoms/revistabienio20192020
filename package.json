@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "gulp processImg; react-scripts start",
-    "build": "react-scripts build",
+    "build": "gulp processImg; react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
