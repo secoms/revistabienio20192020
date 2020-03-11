@@ -15,8 +15,8 @@ const article = (props) => {
                 case "olho": return (<div key={key} className={classes.Olho}>
                     <p className={classes.Citation}>{section.content}</p>
                     <p className={classes.Who}>
-                        <span>{section.who}</span>
-                        <span>{section.position}</span>
+                        <span  className={classes.Name}>{section.who}</span>
+                        <span  className={classes.Position}>{section.position}</span>
                     </p>
                 </div>)
                 default: return ""

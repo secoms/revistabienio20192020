@@ -1,8 +1,225 @@
 {
     "materias": [
         {
+            "topicoid": "01",
+            "id": "01_01",
+            "main": {
+                "title": "Fim dos processos físicos é sinalizado na posse",
+                "body": [
+                    {
+                        "type": "olho",
+                        "who": "des. João Rebouças",
+                        "position": "Em seu discurso de posse.",
+                        "content": "“É inconcebível que tais facilidades não sejam utilizadas, de forma a permitir que o lado humano possa se revelar em toda a sua grandeza e plenitude. Sonho e lutarei por um Tribunal 100% digital, mas também 100% humano”."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Construir um Tribunal mais ágil e aparelhado, adaptados à era da informação, da rapidez e da precisão instantânea não anula o lado humano da atividade. Em seu discurso de posse, em 7 de janeiro, uma segunda-feira, o desembargador presidente apontou o novo caminho para a máquina judiciária norte-rio-grandense. “É inconcebível que tais facilidades não sejam utilizadas, de forma a permitir que o lado humano possa se revelar em toda a sua grandeza e plenitude. Sonho e lutarei por um Tribunal 100% digital, mas também 100% humano”, adiantou Rebouças em sua fala."
+                    },
+                    {
+                        "type": "text",
+                        "content": "A administração focou em seus primórdios a compreensão de que como uma transição histórica era preciso vencer a idade do papel. “O processo virtual é uma quebra de paradigma para o Poder Judiciário e torna-se um fator favorável para acelerar o julgamento de processos”, salientou o dirigente do Poder Judiciário em entrevista a um programa de rádio, em 29 de janeiro. “Não vamos medir esforços para dar uma resposta à sociedade, lutar cada dia para sermos um prestador de serviço cada vez melhor, pois a missão do juiz é julgar, e a digitalização é mais um passo neste sentido”, observa o presidente. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para cumprir o objetivo, O Tribunal de Justiça iniciou a digitalização dos processos no interior do estado. Na capital, o serviço funcionava a pleno vapor logo no primeiro mês da gestão. Inicialmente, 600 processos foram digitalizados. E incluindo, a Segunda Instância, chegaria rapidamente a 20 mil processos físicos. Com o avanço dos trabalhos, em março de 2020, 66% dos processos físicos estavam digitalizados. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "A comarca de Areia Branca foi a primeira do interior a realizar o trabalho, no final de janeiro, com duas centenas de processos prontos para sentença, digitalizados em menos de uma semana. Para isso, a unidade contou com o reforço de servidores da comarca de Mossoró, que apoiaram o esforço da equipe local. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Essa ação promoveu uma economia real para o Poder Judiciário com aluguel de imóveis usados para guardar processos além de diminuir gastos com papel. Para se ter a dimensão disso, a Secretaria Judiciária do Tribunal utilizava 10 mil folhas de papel-ofício, mensalmente. Para a secretária Walteíze Barbosa, a economia proporcionou maior rapidez do trâmite processual e, consequentemente, mais transparência ao cidadão."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "01",
+            "id": "01_02",
+            "main": {
+                "title": "Logo de início, o aceno para o digital e o futuro",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Câmaras do Tribunal de Justiça iniciaram a era das sessões virtuais, milhares de processos físicos começaram a ser digitalizados em diversas comarcas. Assim começou o trabalho do Poder Judiciário potiguar no biênio 2019-2020. Tempo de promover a substituição do antigo pelo novo, do ultrapassado pelo atual, das velhas práticas pela inteligência artificial, de semear avanços para julgar mais e melhor. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "Com uma semana de administração, o presidente do Tribunal, desembargador João Rebouças, para dar o tom de modernidade a sua gestão desde o início, assinou o primeiro contrato eletrônico do TJRN, em 15 de janeiro de 2019. A concepção de uma nova mentalidade para as atividades do Judiciário parte do princípio de que a prioridade para o uso das novas tecnologias facilita e dá celeridade ao trabalho diário da Justiça estadual. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "“É um avanço muito grande”, observou na oportunidade Larissa Saldanha, chefe da Divisão de Contratos e Convênios do TJRN. “A medida traz mais praticidade e rapidez a partir de agora”. Os contratos eram estabelecidos com empresas de outros estados, o que tornava o processo demorado, pois dependia da velocidade dos Correios. “Às vezes o contrato demorava de 15 a 30 dias para retornar via Correios, quando precisávamos dele logo, antes de o antigo vencer”, ressaltou Larissa Saldanha. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "O primeiro contrato assinado foi junto à seguradora Porto Seguro, com base em São Paulo. O contrato foi encaminhado por e-mail, assinado por meio de certificado digital pela empresa, devolvido ao Tribunal e assinado pelo presidente em um período de dois dias úteis. “Essa é a tendência da nova gestão, a praticidade, resolver as coisas com um clique, inclusive no que diz respeito a processos digitais”, concluiu a chefe da Divisão de Contratos e Convênios. "
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Sessões virtuais"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Outra inovação trazida pelo primeiro mês de gestão foi a aprovação, pelo Pleno do TJRN, de uma Emenda Regimental para que as três Câmaras Cíveis e a Câmara Criminal passassem a realizar sessões virtuais de julgamento."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Ficou definido que as sessões virtuais passariam, a partir de março, a ser realizadas semanalmente, enquanto que a cada 15 dias seriam realizadas sessões presenciais por cada órgão julgador, para possibilitar as sustentações orais de advogados e do Ministério Público. “A ideia da administração foi a de deixar o Tribunal totalmente virtualizado, uma forma de prestação jurisdicional mais célere e de dar uma resposta à sociedade, que efetivamente está esperando isso de nós”, ressaltou o presidente do TJRN, desembargador João Rebouças. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "As sessões presenciais continuam a ser realizadas para apreciar processos em que hajam pedidos de sustentação oral por advogados ou em que houver divergência entre os membros da Câmara julgadora."
+                    },
+                    {
+                        "type": "text",
+                        "content": "O desembargador Amílcar Maia ressaltou que a implementação das sessões virtuais trouxe benefício para o Tribunal e para a população. “O ganho para o jurisdicionado é a celeridade, pois ficará mais célere o julgamento. Aqueles que não quiserem apresentar sustentação oral terão o processo julgado de forma mais rápida, com a publicação já encaminhada. Para o Tribunal, traz um ganho de economia, de não manter toda essa estrutura, de ar-condicionado, com pessoal, para realizar sessões em que por vezes temos uma ou duas sustentações orais apenas”."
+                    }
+                ]
+            }
+        },
+        {
             "topicoid": "04",
-            "id":"01",
+            "id": "04_01",
+            "main": {
+                "title": "Dez anos de compromisso diário com os reeducandos",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Autoridades públicas, dirigentes de entidades do terceiro setor e profissionais do Direito renderam homenagens ao programa “Novos Rumos na Execução Penal”, em 16 de maio de 2019. Na ocasião, os responsáveis pela unidade retribuíram o apoio da sociedade ao trabalho de ressocialização de reeducandos e entregaram certificados a 27 pessoas e instituições que contribuíram com a missão de proporcionar esperança para egressos do sistema prisional do estado do Rio Grande do Norte em uma década."
+                    },
+                    {
+                        "type": "text",
+                        "content": "O auditório do prédio sede do TJRN foi o palco para o evento, aberto pelo presidente da Corte potiguar, desembargador João Rebouças. O evento contou com a presença do juiz Carlos Rezende, coordenador do Novos Rumos do Tribunal de Minas Gerais, modelo que carrega o mesmo nome e inspira o projeto adotado no Rio Grande do Norte."
+                    },
+                    {
+                        "type": "text",
+                        "content": "O presidente do TJRN ressaltou a relevância dos serviços prestados em favor da ressocialização desta clientela no estado, por meio das ações educativas e de empregabilidades tocadas pelo programa. “A importância é a recuperação do apenado, a sua reinserção no ambiente familiar, no ambiente social, ensiná-lo uma profissão, evitar a reincidência. Eu acho que se nós conseguirmos recuperar só um, já é uma grande coisa. É preciso que a sociedade tenha essa consciência de que o preso também é ser humano”, frisou o dirigente do Poder Judiciário do RN."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Dignidade das pessoas"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para o juiz coordenador do Novos Rumos, Gustavo Marinho, esses dez anos marcam um período de muito trabalho. Ele destacou a missão do projeto, trazer para a sociedade uma nova visão e conscientização. “É uma comemoração muito importante para toda a comunidade, porque o que nós fazemos é em prol de uma comunidade mais justa, de uma sociedade mais justa, mais solidária, em prol da dignidade do ser humano”."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Marinho frisou ser o objetivo do programa, criado em 2009, promover a transformação na vida das pessoas, que precisam e retornarão ao convívio em sociedade. “Nós procuramos resgatar aquela pessoa e mostrar que ela cometeu um erro, mas é superior àquele erro”."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Durante os 10 anos, muitas atividades foram desenvolvidas, entre elas a capacitação realizada entre os anos de 2016 e 2017, por meio do PRONATEC, quando mais de 600 pessoas foram beneficiadas pelos programas de profissionalização."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Outro dado importante é que na época da construção da Arena das Dunas foram 160 homens empregados nas obras da Copa. Não apenas na Arena, como também nas obras de mobilidade urbana em Natal. Só na época da construção foi uma média de 220 pessoas empregadas”, acrescenta o juiz."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Compromisso com o outro"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Durante a solenidade, houve uma série de homenagens e entrega de certificados de reconhecimento. Uma das pessoas com atuação reconhecida foi a servidora Guiomar Veras, ligada diretamente à coordenação do Novos Rumos. Ela afirmou que “sem dúvida esse momento é de celebração, por dez anos de luta do programa Novos Rumos, de muitos bons resultados. É de comemoração, mas é também de uma reafirmação de compromisso com o programa, de compromisso com a causa”."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“A mim, como a todas as pessoas que contribuem, que tentam contribuir, pela melhoria do sistema prisional, é um momento de profunda gratidão, uma sensação de que realmente estamos num caminho e que a orientação que o Judiciário nos dá tem sido essa luz”, observou o juiz Carlos Rezende, do TJMG."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Com larga experiência na área penal, o magistrado mineiro reafirmou a esperança que possui no modelo alternativo ao existente. “Eu fico aqui com uma grande expectativa de ver o movimento das APACs aumentar no Rio Grande do Norte, que é referência para nós, para o Brasil”."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "04",
+            "id": "04_02",
+            "main": {
+                "title": "Mais atenção ao cidadão e combate à ineficiência",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Julgar mais foi o lema da gestão desde o princípio, como se todas as prioridades possíveis pudessem se reunir em uma ideia inquestionável. Ver o cliente maior da Justiça, o cidadão, como alvo e beneficiário dessas melhorais. Uma Justiça mais eficiente, rápida e efetiva é o desejo tanto da comunidade interna quanto da sociedade, enalteceu o novo presidente. Aumentar a quantidade de julgamentos como forma de dar respostas efetivas aos jurisdicionados foi eleito item de primeira necessidade da gestão 2019-2020, logo no primeiro dia de trabalho. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Vejo o anseio e preocupação dos juízes, advogados privados e públicos, e dos servidores. E principalmente o desapontamento do jurisdicionado, o que mais me entristece. Farei de tudo ao meu alcance para reverter esse quadro, sempre focado na nossa atividade-fim: entregar justiça de forma rápida e eficaz”, frisou o presidente Rebouças, inaugurando o marco conceitual de sua administração."
+                    },
+                    {
+                        "type": "olho",
+                        "who": "des. João Rebouças",
+                        "position": "Ao encerrar seu discurso inaugural à frente da Corte Estadual de Justiça",
+                        "content": "“A grande luta da minha Administração será contra o tempo, contra a ineficiência, contra a burocracia e contra as práticas seculares ultrapassadas que entravam e fossilizam o Judiciário.”"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Lembrando seus quase 40 anos dedicados ao serviço público, dos quais 34 anos à magistratura, o desembargador João Rebouças afirmou conhecer o tabuleiro da mais importante partida de xadrez de sua carreira para impor um xeque-mate à morosidade processual. "
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Não podemos mais aceitar que o processo mate sempre, por aborto, a decisão. O pensamento decisório do juiz é a razão de ser processo, não o contrário. Não é mais aceitável a morosidade, o retrabalho, a redundância, que são péssimas práticas enraizadas pelo tempo e que não têm mais razão de existir. Juízes é o que somos. Tratemos de decidir”, exortou o magistrado, em 7 de janeiro."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "04",
+            "id": "04_03",
+            "main": {
+                "title": "Recorde no atendimento ao cidadão",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Reinaugurada em 29 de março de 2019, a Casa da Justiça e Cidadania (CJC) tem sido uma ferramenta fundamental do Poder Judiciário potiguar na prestação de serviços ao cidadão, sobretudo para aqueles que vivem na Zona Norte da cidade. A unidade, que oferece assistência social, psicológica e jurídica à população, concluiu o ano de 2019 com o montante de 18.655 atendimentos realizados, o que representa um aumento de 14% em relação ao ano anterior."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Logo após a solenidade de reinauguração da CJC, houve a formalização e renovação de convênios com parceiros que atuaram no atendimento das pessoas da região. A Casa da Justiça e Cidadania é formada por um conglomerado de instituições que prestam, por intermédio do TJRN, serviços gratuitos para que a comunidade da Zona Norte não precise mais se deslocar ao outro lado da cidade."
+                    },
+                    {
+                        "type": "text",
+                        "content": "A Assembleia Legislativa (ALRN), o Tribunal Regional Eleitoral (TRE/RN), a Associação de Direito de Família e das Sucessões (ADFAS/RN), as universidades Estácio e Maurício de Nassau, Instituto Brasileiro de Direito de Família (IBDFAM), Associação Brasileira de Mulheres da Carreira Jurídica (ABMCJ/RN), Procon e operadora Oi foram os poderes e instituições que se uniram na oferta de serviços de cidadania àquela região."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Zona Norte"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para a desembargadora Zeneide Bezerra, coordenadora do Núcleo de Ações e Projetos Socioambientais do TJRN (NAPS) responsável pela administração da unidade, a CJC é necessária devido à proporção populacional e a condição socioeconômica em que vivem muitos moradores da região."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“A importância da Casa da Justiça e Cidadania é vital. Nós sabemos que na Zona Norte tem quase 300 mil habitantes e o atendimento para aquelas pessoas que vivem ali, não só por advogados, mas também de psicólogos e assistentes sociais, faz com que eles não se movimentem de lá para o Complexo Judiciário ou o Fórum Seabra Fagundes”, enfatiza a coordenadora geral do NAPS."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Quanto mais atendimentos nós tivermos, melhor para a população a população, por isso nós estivemos aí com os parceiros, fazendo um atendimento com dignidade e respeito para quase 19 mil pessoas que nos procuraram após março, quando houve a reinauguração da Casa da Justiça e Cidadania”, salienta a magistrada."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Reforço"
+                    },
+                    {
+                        "type": "text",
+                        "content": "No começo de 2020, mais uma instituição passou a integrar a lista das parceiras da Casa. Convênio firmado entre o Tribunal de Justiça e o Tribunal Regional do Trabalho da 21ª Região (TRT/RN), em 15 de janeiro, permitiu que a Justiça Trabalhista passe a prestar serviço à população da Zona Norte de Natal. Para o desembargador João Rebouças, presidente do TJRN, a meta deve ser sempre a de facilitar o acesso à Justiça pela população. “E a Casa da Justiça e Cidadania contribui para isso. O convênio só melhora os serviços”, destaca."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Uma das atuações da Justiça Trabalhista na Casa da Justiça e Cidadania é voltada para a área da conciliação, audiências em ações trabalhistas e outras atividades com o intuito de desafogar o elevado número de ações em tramitação nesta área judicial. A Casa da Justiça e Cidadania funciona de segunda a sexta, das 9h às 12h e das 13h às 16h, no Shopping Estação, na Avenida Dr. João Medeiros Filho, 2300 Potengi, Zona Norte de Natal"
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "04",
+            "id": "04_04",
             "main": {
                 "title": "Ouvidoria alcança 93% de solução em ocorrências",
                 "body": [
@@ -11,12 +228,6 @@
                         "content": "Parece uma prova de atletismo, precisamente na modalidade de salto em altura, na qual a medida que o tempo passa a marca a ser superada vai ser tornando mais alta. Foi assim que ocorreu com o desempenho da Ouvidoria do TJRN no ano de 2019 em relação ao percentual de solução das demandas apresentadas pela população. Observe: Em setembro, o índice era de 88%. Passou em outubro para 90% e fechou o ano com 93%. Um crescimento de cinco pontos em três meses."
                     },
                     {
-                        "type": "olho",
-                        "who":"des. Vivaldo Pinheiro",
-                        "position":"Ouvidor geral",
-                        "content": "Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços"
-                    },
-                    {
                         "type": "text",
                         "content": "“Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços”, ressalta o desembargador Vivaldo Pinheiro, ouvidor geral."
                     },
@@ -26,7 +237,7 @@
                     },
                     {
                         "type": "subtitle",
-                        "content": "VOCAÇÃO MEDIADORA"
+                        "content": "Vocação Mediadora"
                     },
                     {
                         "type": "text",
@@ -38,7 +249,7 @@
                     },
                     {
                         "type": "subtitle",
-                        "content": "APERFEIÇOAR"
+                        "content": "Aperfeiçoar"
                     },
                     {
                         "type": "text",
@@ -53,90 +264,273 @@
                         "content": "Serviços do Poder Judiciário como a Unidade Móvel de Trânsito, Juizado do Aeroporto e a própria Ouvidoria recebem constantes elogios da população, de pessoas que tiveram seus pleitos resolvidos com atenção, presteza e agilidade por magistrados e servidores da Justiça."
                     }
                 ]
-            },
-            "numbers": {
-                "title": "",
-                "body": "",
-                "imgs": []
-            },
-            "highlight": {
-                "title": "",
-                "body": ""
             }
         },
         {
-            "topicoid": "04",
-            "id":"02",
+            "topicoid": "05",
+            "id": "05_01",
             "main": {
-                "title": "Ouvidoria alcança 93% de solução em ocorrências 2",
+                "title": "Equipes mais preparadas para atuação nas câmaras cíveis",
                 "body": [
                     {
                         "type": "text",
-                        "content": "Parece uma prova de atletismo, precisamente na modalidade de salto em altura, na qual a medida que o tempo passa a marca a ser superada vai ser tornando mais alta. Foi assim que ocorreu com o desempenho da Ouvidoria do TJRN no ano de 2019 em relação ao percentual de solução das demandas apresentadas pela população. Observe: Em setembro, o índice era de 88%. Passou em outubro para 90% e fechou o ano com 93%. Um crescimento de cinco pontos em três meses."
-                    },
-                    {
-                        "type": "olho",
-                        "who":"des. Vivaldo Pinheiro",
-                        "position":"Ouvidor geral",
-                        "content": "Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços"
+                        "content": "Se a própria administração elegeu transparência, produtividade e efetividade jurisdicional como seus pilares, os homens e as mulheres que fazem a Justiça estadual não podiam ficar à margem desta missão. Em virtude disso, o aspecto humano tão importante quanto o tecnológico recebeu atenção especial. Nos dias 17 e 18 de janeiro de 2019, a Secretaria Judiciária realizou um curso para orientar e treinar servidores e terceirizados que trabalham no apoio às Câmaras Cíveis do TJRN. A ideia da Secretaria foi unificar o apoio das três Câmaras, para otimizar o fluxo de trabalho dos servidores, trazendo celeridade ao andamento dos processos em 2º Grau. O pontapé inicial dessa unificação foi o início dos trabalhos de digitalização dos processos. "
                     },
                     {
                         "type": "text",
-                        "content": "“Em 2020, trabalhamos para nos aproximar ainda mais do cidadão, da população que necessita dos serviços do Poder Judiciário, queremos ouvir ainda mais essas pessoas, seus clamores, críticas, sugestões, elogios e opiniões sobre como estamos prestando nossos serviços”, ressalta o desembargador Vivaldo Pinheiro, ouvidor geral."
+                        "content": "Segundo a secretária Walteíze Barbosa, na ocasião o 2º Grau estava com cerca de 10 mil processos ativos, entre as Câmaras, Secretaria e os gabinetes. “Os processos físicos demandam tempo de busca, de juntada, de numeração e esse tempo no sistema eletrônico é bastante reduzido, por que você já está com o processo em tela, ali já tem as tarefas que você vai desempenhar dentro do próprio sistema”, explicou. Para a secretária, o sucesso da unificação depende inteiramente da digitalização. "
                     },
                     {
                         "type": "text",
-                        "content": "A Ouvidoria é o órgão do Tribunal responsável por atender as demandas dos cidadãos que buscam o contato com Poder Judiciário estadual, seja no âmbito processual ou administrativo. As demandas da população são recebidas pela unidade por meio de seus canais de atendimento, e-mail, formulário físico (disponível em prédios judiciais) e através do portal do TJRN na internet."
-                    },
-                    {
-                        "type": "subtitle",
-                        "content": "VOCAÇÃO MEDIADORA"
+                        "content": "Com a unificação se passou a ganhar muito mais tempo e celeridade no processo porque o servidor que faria o trabalho em três locais diferentes, para vários desembargadores, passou a fazer tarefas específicas para todos os desembargadores. “É diferente porque você vai ter um servidor monitorando as diferentes caixas de processo, cumprindo as determinações, praticamente em tempo real, diferente do processo físico no qual você perde tempo procurando, ou mesmo no eletrônico quando você tem vários apoios trabalhando, mesmo de forma padronizada, mas você tem uma pessoa em cada apoio trabalhando com a mesma tarefa”, observou Walteíze. Trabalhando, unificadamente, se reduz o tempo dispendido na tarefa e se acelera o cumprimento dessas atividades. "
                     },
                     {
                         "type": "text",
-                        "content": "É importante deixar claro que a Ouvidoria não é um órgão resolutivo, mas mediador, sempre buscando agilizar a resposta, o encaminhamento de solução ao pedido, pleito ou demanda encaminhados pelo cidadão. As respostas aos jurisdicionados vem das unidades demandadas dentro do prazo legal de 15 dias."
+                        "content": "A ideia a permear esta iniciativa da gestão foi a de que os servidores revezassem suas funções dentro do fluxo de trabalho e achassem uma com a qual tivessem mais aptidão para trabalhar. O curso foi ministrado pelo servidor Francisco Ribeiro, que coordenou a unificação das Varas Cíveis em Mossoró. O curso auxiliou na construção de um fluxo de trabalho que se encaixasse melhor com a realidade dos servidores e estimulou a troca de experiência entre eles."
                     },
                     {
                         "type": "text",
-                        "content": "Nos últimos anos, a unidade vem avançando no atendimento à população. Em 2018, foi criado o e-Ouvidoria, sistema que recebe as demandas da população, implantado na gestão do desembargador João Rebouças. O acesso é simples. Ao entrar no Portal do Judiciário (www.tjrn.jus.br), basta clicar na aba OUVIDORIA, ao lado direito dos itens de acesso rápido. Depois, é só preencher informações como número do CPF, dados pessoais e criar uma senha para acessos. Esta etapa é essencial, pois permite que o usuário possa acompanhar sua demanda e ver como ela está sendo atendida. O sistema envia para o e-mail do cidadão informações sobre o andamento da ocorrência aberta até a sua conclusão."
-                    },
-                    {
-                        "type": "subtitle",
-                        "content": "APERFEIÇOAR"
-                    },
-                    {
-                        "type": "text",
-                        "content": "A unidade pretende manter o foco no acompanhamento periódico e sistemático das ocorrências em atraso, de maneira comprometida e em respeito ao usuário como parte hipossuficiente na demanda."
-                    },
-                    {
-                        "type": "text",
-                        "content": "“A nossa atribuição é ser um canal entre a sociedade e o Judiciário, de intermediar, de ser uma porta para que o cidadão acesse os serviços judiciários de forma simples, transparente e da maneira mais rápida possível”, complementa Teresa Paiva de Oliveira, assessora da Ouvidoria."
-                    },
-                    {
-                        "type": "text",
-                        "content": "Serviços do Poder Judiciário como a Unidade Móvel de Trânsito, Juizado do Aeroporto e a própria Ouvidoria recebem constantes elogios da população, de pessoas que tiveram seus pleitos resolvidos com atenção, presteza e agilidade por magistrados e servidores da Justiça."
+                        "content": "Além das Câmaras e do Pleno, outros departamentos passaram pelo processo na sequência do biênio, como por exemplo, o de Acórdãos e de Distribuição, pois alguns processos se tornaram obsoletos e outras funções surgiram a partir da utilização dos processos digitais."
                     }
                 ]
-            },
-            "numbers": {
-                "title": "",
-                "body": "",
-                "imgs": [                    
-                    
+            }
+        },
+        {
+            "topicoid": "05",
+            "id": "05_02",
+            "main": {
+                "title": "Justiça potiguar conquista Selo Prata do CNJ",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Justiça potiguar conquista Selo Prata do CNJ"
+                    },
+                    {
+                        "type": "text",
+                        "content": "No universo judiciário a busca pela eficiência é diária. A avaliação é constante e os parâmetros de análise são cada vez mais elevados. Ao lado de 26 tribunais, seis deles estaduais, o Tribunal de Justiça potiguar foi um dos ganhadores do Selo Prata no Prêmio CNJ de Qualidade 2019. Somente três TJs do Nordeste figuraram na lista que reúne os 56 melhores do país entre superiores, federais, estaduais e especializados. Entre todas as categorias, 11 Tribunais de Justiça figuram na lista do CNJ. Ou seja, 16 ficaram fora do Prêmio de Qualidade conferido pelo Conselho Nacional de Justiça."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“É importante observar que, anteriormente, só participavam dessa avaliação os tribunais estaduais. O cenário ampliou-se e agora reúne a aferição do trabalho de órgãos de Justiça de todo o país, o que dá maior relevância aos selos, cada vez mais criteriosos e tratando tribunais menores e maiores de igual para igual”, ressalta o presidente do TJRN, desembargador João Rebouças. “Acredito que pontuamos bem, reduzimos o tempo de duração dos processos com performance acima da média e, claro, ainda temos pontos a melhorar, objetivo que perseguimos todos os dias”, complementa o dirigente da Corte de Justiça potiguar."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Desempenho"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Dentre os 91 tribunais brasileiros, incluindo nesta conta os estaduais, federais, eleitorais, do trabalho, militares e superiores, 35 não foram classificados dentro de uma das quatro categorias de selos conferidos pelo CNJ: Prêmio CNJ de Qualidade (Verde), Diamante, Ouro e Prata. Do Nordeste, apenas os tribunais de Sergipe, do Rio Grande do Norte e do Maranhão fazem parte da lista. A avaliação do CNJ em relação aos tribunais é cada vez mais criteriosa e com o acréscimo de quesitos, metas e aspectos como transparência, produtividade e governança, por exemplo."
+                    },
+                    {
+                        "type": "text",
+                        "content": "O TJRN alcançou 767 pontos na avaliação do CNJ o que corresponde a 66,1% de cumprimento de objetivos exigidos pelo Conselho, obtendo 100% de pontuação em vários itens constantes no levantamento como a Realização das Reuniões de Análise da Estratégia (RAE); Funcionamento do Comitê Gestor Regional e Comitê Orçamentário da Política de Priorização do 1º Grau; Implantação do Processo Judicial Eletrônico (PJe); Acessibilidade; Instalação de Coordenadorias de Infância e Juventude; Participação Feminina; Redução da Taxa de Congestionamento Líquida; Diminuição do tempo médio de duração dos processos pendentes; Instalação do Núcleo de Gerenciamento de Precedentes (NUGEP) e do Banco Nacional de Demandas Repetitivas e Precedentes Obrigatórios (BNPR)."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Mudança de Patamar"
+                    },
+                    {
+                        "type": "text",
+                        "content": "O trabalho desenvolvido pelas diversas áreas de atuação do Poder Judiciário do Rio Grande do Norte deixam o TJRN em um patamar expressivo entre os tribunais do Nordeste. A Justiça Estadual potiguar utiliza o PJe em todas as unidades de primeiro grau e também na segunda instância. Uma das principais prioridades da atual gestão do TJ potiguar é com a eliminação de processos físicos e consequentemente a virtualização de todos os feitos."
+                    },
+                    {
+                        "type": "text",
+                        "content": "A Corte potiguar também focou decisivamente no aumento da participação feminina no protagonismo dentro da instituição. Para isso, o Tribunal criou comitê deliberativo que atua na valorização da mulher no ambiente de trabalho, realizando palestras, seminários, workshops, entre outras atividades como a realização de estudos e diagnósticos nesta área."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Magistrados e servidores conseguiram reduzir a Taxa de Congestionamento Líquida em dois pontos percentuais. E o tempo médio de duração dos processos pendentes do Tribunal é igual ou menor em 25% das amostras ordenadas."
+                    }
                 ]
-            },
-            "highlight": {
-                "title": "",
-                "body": ""
+            }
+        },
+        {
+            "topicoid": "06",
+            "id": "06_01",
+            "main": {
+                "title": "Inteligência Artificial no centro das discussões na Justiça potiguar",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "O quarto mês do primeiro ano de administração foi um período de aquisição de conhecimentos. E na pauta, ganhou destaque a Inteligência Artificial. No dia 12 de abril de 2019, o desembargador do Tribunal de Justiça de Rondônia, Marcos Alaor, falou sobre o uso da Inteligência Artificial no Poder Judiciário e a sua experiência nesta área para uma plateia de desembargadores, juízes e servidores da Justiça Estadual potiguar, em evento promovido pela Presidência do TJRN na Escola da Magistratura. Na sua visão, a Inteligência Artificial pode ajudar a gerir melhor o Poder Judiciário brasileiro."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Estudioso do tema, o magistrado ressaltou que a Inteligência Artificial não é o futuro, mas o presente, algo que já está no dia a dia de todas as pessoas. Alaor elogiou o TJRN e a Esmarn por discutirem esse tema. Ao falar sobre o início da Inteligência Artificial, lembrou que o desembargador Cristovam Daiello (fundador da Escola da Ajuris) já imaginava que um dia os sistemas computadorizados iriam auxiliar a Justiça."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Ao falar sobre sua experiência com o tema, recordou seu primeiro contato com a Inteligência Artificial no TJ de Rondônia, quando começou a usar sistema computadorizado para auxiliá-lo a decidir casos. O palestrante, convidado pelo desembargador João Rebouças, demonstrou uma preocupação em sua fala. Para ele, o maior problema do Judiciário é que essa mudança tecnológica não está sendo capitaneada pelo Poder Judiciário. Ele entende que a Justiça deveria ter um protagonismo nesse processo."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Nós precisamos assumir isso e dizer que somos nós que vamos capitanear esse processo”, afirmou o membro do TJRO, defendendo que o CNJ deve assumir esse papel. “Estamos muito atrasados se comparados com outras áreas. Mas é preciso reconhecer o atraso para ter como superá-lo”, comentou."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Segurança jurídica"
+                    },
+                    {
+                        "type": "text",
+                        "content": "O palestrante disse que a Inteligência Artificial chegou ao Judiciário através de várias iniciativas. Como exemplo, citou o STF, que desenvolveu o “Vitor”, sistema criado para analisar os acórdãos para identificar recursos repetitivos, assim como outras iniciativas no STJ e no TJRO. Segundo ele, o próprio STF já sugere ao advogado a classe processual correta para não haver erro na distribuição."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Exemplificou que a Inteligência Artificial poderá sugerir decisões, a partir da análise dos julgamentos do TJRN. Assim, a sentença não será modificada na segunda instância. Alaor apontou que o ganho será na segurança jurídica. “Vivemos da legitimidade das nossas decisões. É um erro pensar que é fácil, pois é muito trabalhoso. Nós podemos pensar que a Inteligência Artificial pode substituir profissionais, mas, na medida em que ela tem inteligência, ela não tem consciência. É necessário trabalhar sempre com a ideia que a consciência é do ser humano”, aconselhou."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para o desembargador Marcos Alaor, os advogados serão os próximos a serem atingidos pela Inteligência Artificial. E citou exemplo disto, como o uso da IA para revisão de contratos, através da utilização de advogado robô para litigar em processos judiciais. Apontou que escritórios de advocacia estão predizendo o que os juízes vão decidir, a partir da utilização de Big Data."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Máquinas e humanos"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Marcos Alaor esclareceu que a máquina é boa pra gerir informações de massa, mas o que as pessoas precisam é organizar dados, adquirir conhecimento para entender o que é essa tecnologia e planejar para executar, pois esse processo precisa do acompanhamento humano, e no caso do Poder Judiciário, dos juízes. “É importante que seja capitaneado por juízes que devem levar em conta questões éticas”, levantou a questão."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Ele falou ainda sobre a questão do desemprego trazido pela Inteligência Artificial, a desigualdade nas relações humanas que estão sendo alteradas, os erros e os preconceitos praticados pela Inteligência Artificial através da inserção de dados ruins, que podem gerar um sistema preconceituoso e racista. Para ele, é fundamental que os preconceitos que podem influir na ferramenta sejam eliminados, pois existe o medo que a Inteligência Artificial supere a inteligência e interação humanas."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“O Judiciário tem que estar à frente. Por isso eu parabenizo o presidente João Rebouças e o desembargador Saraiva Sobrinho pela iniciativa, contribuindo assim para que os juízes do Rio Grande do Norte julguem melhor”, parabenizou, reafirmando que o TJRN deve assumir o trabalho de implantação de sistemas de Inteligência Artificial. “Vai dar trabalho, mas é necessário e fundamental que o Poder Judiciário faça isso”, aconselhou Marcos Alaor."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "06",
+            "id": "06_02",
+            "main": {
+                "title": "Tecnologia a serviço do sistema prisional",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Fazer do TJRN um Tribunal cada vez mais inserido no mundo da tecnologia não foi apenas um discurso de início de gestão. A disposição de largada da administração se transferiu para a realidade. A direção do Poder Judiciário potiguar forneceu aparelhos smartphones para as unidades judiciárias especializadas na apreciação de casos de violência contra a mulher. Tudo isso por meio do aplicativo de mensagens WhatsApp."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Realizada em maio de 2019, a iniciativa buscou dar celeridade para a comunicação das mulheres vítimas de agressões, ameaças e outros tipos de constrangimentos físicos, sociais e psicológicos com a Justiça, em situações de perigo. Com a iniciativa do Tribunal, a Justiça potiguar viabilizou o avanço do projeto “Medida Protetiva Eletrônica”, criado pela Coordenadoria Estadual da Mulher do TJ norte-rio-grandense."
+                    },
+                    {
+                        "type": "text",
+                        "content": "O juiz Deyvis Marques, responsável pela Coordenadoria da Mulher em Situação de Violência Doméstica e Familiar (CE-Mulher), ressalta que com os aparelhos, sempre quando o juiz decidir uma medida protetiva, a secretaria da unidade judiciária fará o envio da decisão para a vítima via WhatsApp. O recebimento ocorre de forma instantânea."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Tal medida, observa o magistrado, faz com que deixe de ser necessária a expedição de mandado, ou deslocamento de oficial de justiça, trazendo celeridade e reduzindo custos. “Com a intimação pelo WhatsApp, a comunicação da medida ocorre em tempo real, com maior agilidade e com menor custo. Com isso, conseguimos garantir maior efetividade da lei”, explicou o coordenador da CE-Mulher."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Agilidade na informação"
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Somente são intimadas dessa forma as vítimas que anuírem a este tipo de formato. Para isto, basta ela informar um número de WhatsApp para o recebimento das mensagens. Com a autorização, as vítimas passarão a ser intimadas através desse instrumento tecnológico, trazendo maior efetividade e modernidade e também mais comodidade e economia”, aponta o juiz Deyvis Marques."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Em 29 de maio, o presidente do TJRN, desembargador João Rebouças, realizou a entrega de aparelhos ao juiz Deyvis Marques, titular do Juizado da Violência Doméstica de Parnamirim, e às juízas Maria do Socorro Pinto e Rossana Andrade, respectivamente, titulares do 1º e 2º Juizados da Violência Doméstica de Natal. O Juizado de Mossoró, que tem como titular o juiz Renato Vasconcelos, também recebeu um telefone celular para realizar as comunicações com as vítimas. Além destes, o juiz Rosivaldo Toscano, do 3º Juizado de Violência Doméstica de Natal, usa esse recurso tecnológico."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Entre os usos do WhatsApp, o coordenador da CE-Mulher exemplifica que a vítima passa a ser comunicada antes do réu quando este for posto em liberdade e que qualquer medida em desfavor do réu é previamente comunicada à vítima, que terá conhecimento antes do agressor. A comunicação ocorre no horário das 8h às 18h."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "06",
+            "id": "06_03",
+            "main": {
+                "title": "Tecnologia a serviço do sistema prisional",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Mais segurança para magistrados, advogados, promotores e servidores da Justiça. Este é um dos avanços da implantação de sistemas de videoconferências em presídios estaduais, iniciada pelo Tribunal de Justiça em 25 de abril de 2019, com a doação de três kits de equipamentos para este fim, entregues à Secretaria Estadual de Administração Penitenciária. O presidente do TJ, desembargador João Rebouças, e o corregedor geral de Justiça, desembargador Amaury Moura Sobrinho, realizaram a entrega na Presidência do Poder Judiciário. Os equipamentos foram recebidos pelo secretário Pedro Florêncio e instalados no Presídio Estadual de Parnamirim, na Cadeia Pública de Natal e no Complexo Penal Dr. João Chaves. Inicialmente essas máquinas permitiram a realização de teleaudiências para um universo de 40% do total de presos em unidades prisionais do Rio Grande do Norte, ou cerca de 2.400 reclusos."
+                    },
+                    {
+                        "type": "text",
+                        "content": "A medida de contribuição do Poder Judiciário para o trabalho do Executivo dá continuidade ao apoio da Justiça Estadual ao sistema carcerário do Estado, que desde 2016 teve um incremento, com a transferência de R$ 20 milhões para a construção de um presídio e de uma unidade APAC. Com as teleaudiências em processos criminais, o Estado pode diminuir consideravelmente o gasto com transporte, combustível e segurança para o deslocamento de presos para audiências em unidades judiciárias."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“É uma reunião simples, uma entrega simbólica, mas de muito significado para nós do Judiciário Estadual”, afirmou o presidente do TJRN, ao ressaltar que a iniciativa amplia a economia e a segurança, já que elimina a necessidade de transporte dos presos, bem como – por consequência – o risco de eventual tentativa de resgate."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para o desembargador João Rebouças, os equipamentos (computadores, monitores de TV, mesas e fiação) também resolveram questões como a falta de viaturas ou de policiais para a realização da escolta dos presos até as unidades onde seriam ouvidos pelos juízes correspondentes. O presidente do Tribunal salientou que o Poder Judiciário realiza estudos para a instalação de links para melhorar a condições de internet em polos do Estado onde existem presídios, garantindo a qualidade da rede para implantação das teleaudiências também no interior, em polos como Pau dos Ferros e Caicó."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Iniciativa rara"
+                    },
+                    {
+                        "type": "text",
+                        "content": "“Caso uma audiência não ocorra, por essas razões, é o preso que sempre se prejudica. E há prejuízos que vão além de ter que esperar, por exemplo, mais seis meses para uma nova audiência acontecer. Há prejuízos processuais, mas há o emocional e, por isso, estamos profundamente agradecidos ao TJRN de ter essa iniciativa rara, em comparação a outros Tribunais do país”, avalia o secretário Pedro Florêncio. “Esses equipamentos reforçam o comprometimento do Judiciário nessa parceria que vem sendo contínua”, completa o dirigente da SEAP."
+                    },
+                    {
+                        "type": "text",
+                        "content": "“O TJRN não nega esforços para a melhoria jurisdicional”, reforça o corregedor geral de Justiça, desembargador Amaury Moura, ressaltando que é possível se aplicar o orçamento de forma mais eficiente. “E gastando menos. Sim, é possível gastar menos e ter um serviço mais eficiente”, enfatiza o magistrado."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Com o sistema de videoconferência é possível, por exemplo, realizar uma intimação por videoconferência, diretamente com uma unidade prisional e determinado preso, além da implantação de visita por meio do sistema, em situações em que um parente deseja contatar um apenado remotamente. Além disso, os equipamentos eliminam a necessidade de se expedir uma carta precatória de uma comarca ou de um estado para outro."
+                    }
+                ]
+            }
+        },
+        {
+            "topicoid": "06",
+            "id": "06_04",
+            "main": {
+                "title": "TI avança em Governança, Gestão e Infraestrutura",
+                "body": [
+                    {
+                        "type": "text",
+                        "content": "Com o índice de pontuação em 0,86, o Tribunal de Justiça do Rio Grande do Norte atingiu o nível aprimorado no Diagnóstico de Governança, Gestão e Infraestrutura de TIC do Poder Judiciário – 2019, promovido pelo Conselho Nacional de Justiça (CNJ). A posição alcançada foi na média do resultado iGovTIC-JUD 2019 por segmento, ou seja, entre os tribunais estaduais."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Resultado este que representa uma subida na classificação por nível de maturidade iGovTIC-JUD 2019 alcançada pelo TJRN dentre todos os tribunais do Brasil. Os níveis de apuração utilizados no estudo são: Baixo, Satisfatório, Aprimorado e Excelência e o desempenho do tribunal potiguar demonstra uma maior maturidade quanto aos investimentos e serviços de TI."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Secretário de Tecnologia da Informação e Comunicação do TJRN, Gerânio Gomes explica que, por meio deste questionário de governança anual, o CNJ avalia quais são os processos, procedimentos e as ações que cada TI está fazendo em seus tribunais e isso gera um norte com base nas boas práticas internacionais para que os tribunais sigam."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Bem Organizada"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Ele ressalta a pontuação de 0,86 alcançada, pois “mostra que estamos utilizando boas práticas internacionais de TIC para que tenhamos uma área de tecnologia mais bem organizada e mais próxima das necessidades dos usuários garantindo naturalmente a celeridade processual”."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Para efeitos de ilustração, o TJRN ficou melhor posicionado que tribunais de médio porte, como o TJMA, TJCE, TJBA e TJDFT e de grande porte, como o TJMG, TJRS, TJRJ e o TJSP."
+                    },
+                    {
+                        "type": "text",
+                        "content": "No ano de 2018, o TJRN alcançou o índice de 0,76 no mesmo questionário aplicado, o que comprova o compromisso das gestões do tribunal potiguar com o incremento de investimento em tecnologia de informática como um dos meios para imprimir maior celeridade aos julgamentos dos processos na Justiça norte-riograndense."
+                    },
+                    {
+                        "type": "subtitle",
+                        "content": "Apoio Direto"
+                    },
+                    {
+                        "type": "text",
+                        "content": "O responsável pela área de TI do TJRN esclarece que esse estudo segue padrões que os setores de informática de qualquer órgão público, independente de ser tribunal, devem seguir para terem melhor desempenho e assim se tornem uma informática mais organizada, com a possibilidade de dar maior apoio à área de negócio dos seus órgãos, que, no caso do TJRN, se dá no apoio direto aos sistemas judiciais e administrativos dos tribunais, visando, no fim, a celeridade processual."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Segundo o secretário, essa orientação de atuação se subdivide em dimensões como políticas e planejamento; estruturas; macroprocessos; competências, desenvolvimento e desempenho das pessoas; riscos, monitoramento e auditoria; controle de gestão; sistemas e integração; serviços de infraestrutura; segurança da informação; pessoal do quadro de tecnologia; infraestrutura e de suporte técnico."
+                    }
+                ]
             }
         }
     ]
 }
-
-
-
-
-
-
-
-

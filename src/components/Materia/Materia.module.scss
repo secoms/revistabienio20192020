@@ -38,8 +38,15 @@
 	margin-top: 15px;
 	.Who {
 		position: relative;
-		text-transform: capitalize;
 		padding-left: 15px;
+		.Name {
+			text-transform: capitalize;
+			font-weight: bold;
+
+		}
+		.Position {
+			font-style: italic;
+		}
 		span {
 			display: block;
 			opacity: 0.5;
