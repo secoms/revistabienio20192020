@@ -15,10 +15,13 @@ export const setActiveTopico = (activeTopico) => {
     }
 }
 
-export const setTopicos = (topicos) => {
+export const setTopicos = (topicos, activeTopicoID) => {
+    const activeTopico = topicos.topicos.filter(topico => (String(topico.id) === String(activeTopicoID)))
+    
     return {
         type: actionsType.SET_TOPICOS,
-        topicos: topicos.topicos
+        topicos: topicos.topicos,
+        activeTopico: activeTopico[0],
     }
 }
 
@@ -29,13 +32,15 @@ export const fetchErrorTopicos = error => {
     }
 }
 
-export const initTopicos = () => {
+export const initTopicos = (activeTopicoID) => {
     return dispatch => {
         axios.get(constants.API_TOPICOS).then(response => {
-            dispatch(setTopicos(response.data))
+            dispatch(setTopicos(response.data, activeTopicoID))
         })
             .catch(error => {
                 dispatch(fetchErrorTopicos(error.data))
             })
     }
 }
+
+

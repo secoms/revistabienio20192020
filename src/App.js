@@ -3,9 +3,9 @@ import './App.scss';
 import { Switch, Route, Redirect, withRouter } from "react-router-dom";
 import Layout from './hoc/Layout/Layout';
 import asyncComponent from "./hoc/asyncComponent";
-
-const asyncHome = asyncComponent(() =>{
-  return import ("./containers/Home/Home")
+import { ROOT_FOLDER } from './utils/constants'
+const asyncHome = asyncComponent(() => {
+  return import("./containers/Home/Home")
 })
 
 
@@ -16,8 +16,9 @@ function App() {
     <div className="app">
       <Layout>
         <Switch>
-          <Route path="/" exact component={asyncHome} />
-          <Redirect to="/"/>
+
+          <Route path={ROOT_FOLDER} exact component={asyncHome} />
+          <Redirect to="/" />
         </Switch>
       </Layout>
     </div>

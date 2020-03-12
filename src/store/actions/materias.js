@@ -16,10 +16,16 @@ export const setActiveMateria = (activeMateria) => {
     }
 }
 
-export const setMaterias = (materias) => {
+export const setMaterias = (materias, activeMateriaID) => {
+    
+    const activeMateria = materias.materias.filter(materia => {
+        return (String(materia.id) === String(activeMateriaID))
+    })
+
     return {
         type: actionsType.SET_MATERIAS,
-        materias: materias
+        materias: materias,
+        activeMateria: activeMateria[0]
     }
 }
 
@@ -30,10 +36,10 @@ export const fetchErrorMaterias = (error) => {
     }
 }
 
-export const initMaterias = () => {
+export const initMaterias = (activeMateriaID) => {
     return dispatch => {
         axios.get(constants.API_MATERIAS).then(response => {
-            dispatch(setMaterias(response.data))
+            dispatch(setMaterias(response.data, activeMateriaID))
         })
             .catch(error => {
                 dispatch(fetchErrorMaterias(error.data))

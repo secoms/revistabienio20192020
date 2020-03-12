@@ -11,6 +11,7 @@ const footer = props => {
             </figure>
             <a href="http://www.tjrn.jus.br/" target="_blank"
                 title='Acessar site do TJRN '
+                rel="noopener noreferrer"
                 alt='Acessar site do TJRN em nova janela' >
 
                 <figure className={classes.Logo}>

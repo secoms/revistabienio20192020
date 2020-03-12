@@ -8,7 +8,7 @@ const listMaterias = (props) => {
         links = props.materias.map(materia => {
             return (
                 <li key={materia.id}>
-                    <a href="#nulllink" className={classes.Link} onClick={(event) => props.click(event, materia)}>
+                    <a href="#nulllink" className={classes.Link} onClick={(event) => props.click(event, materia, props.topicoID)}>
                         <h2 >
                             {materia.main.title}
                         </h2>

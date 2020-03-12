@@ -24,6 +24,7 @@ const store = createStore(rootReducer, composeEnhancers(
 
 const app = (
     <Provider store={store}>
+        {/* <BrowserRouter basename="/2019-2020"> */}
         <BrowserRouter basename="/">
             <App />
         </BrowserRouter>

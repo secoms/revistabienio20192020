@@ -9,7 +9,8 @@ const initialSatet = {
 
 const setMaterias = (state, action) => {
     return updateObject(state,{
-        materias: action.materias.materias
+        materias: action.materias.materias,
+        activeMateria: action.activeMateria
     })
 }
 const fetchMateriasFailed = (state, action) => {

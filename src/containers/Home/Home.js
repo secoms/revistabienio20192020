@@ -9,18 +9,36 @@ import { smothScroll } from '../../utils/utility'
 // import { API_MATERIAS, API_TOPICOS } from "../../utils/constants";
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index'
+import ScrollTop from '../../components/ScrollTop/ScollTop';
 
 
 class Home extends Component {
+    state = {
+        toShowScrollToTop: false
+    }
 
     componentDidMount() {
-        this.props.onInitTopicos()
-        this.props.onInitMaterias()
-    }
-    /**
-     *  UPDATE STATE ACTIVE OR DESACTIVE
-     */
+        let activeTopicoID = null
+        let activeMateriaID = null
 
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('topico')) {
+            activeTopicoID = urlParams.get('topico')
+            if (urlParams.has('materia')) {
+                activeMateriaID = urlParams.get('materia')
+
+            }
+        }
+
+        this.props.onInitTopicos(activeTopicoID)
+        this.props.onInitMaterias(activeMateriaID)
+
+
+        document.addEventListener('scroll', () => {
+            this.setState({ toShowScrollToTop: (window.pageYOffset > 600) })
+        })
+    }
+    
     clearAllActives = () => {
         this.props.resetActiveTopico()
         this.props.resetActiveMateria()
@@ -31,23 +49,29 @@ class Home extends Component {
         this.clearAllActives()
         event.preventDefault()
         if (this.props.activeTopico) {
-            if (this.props.activeTopico.id === topico.id) this.clearAllActives()
-            else {
+            if (this.props.activeTopico.id === topico.id) {
+                this.clearAllActives()
+                this.props.history.replace('');
+
+            } else {
                 this.props.setActiveTopico(topico)
+                this.props.history.replace('?topico=' + topico.id);
                 moveDown = true
             }
         } else {
             this.props.setActiveTopico(topico)
+            this.props.history.replace('?topico=' + topico.id);
             moveDown = true
         }
 
-        if (moveDown) { 
+        if (moveDown) {
             smothScroll('.MainSlider', 1000)
         }
     }
 
-    setActiveMateriaHandler = (event, materia) => {
+    setActiveMateriaHandler = (event, materia, topicoID) => {
         event.preventDefault()
+        this.props.history.replace('?topico=' + topicoID + '&materia=' + materia.id)
         this.props.setActiveMateria(materia)
     }
 
@@ -60,13 +84,13 @@ class Home extends Component {
      *  SET Topico, List of Materia HANDLER 
      */
 
-    setTopicosHandler = (topicos, topicoID) => {
+    getTopicoHandler = (topicos, topicoID) => {
         return topicos.filter(topico => (topico.id === topicoID))
     }
 
     setListMateriasHandler = (materias, topicoID) => {
         const filterdMaterias = (materias) ? materias.filter(materia => (materia.topicoid === topicoID)) : null
-        return <ListMaterias materias={filterdMaterias} click={this.setActiveMateriaHandler} />
+        return <ListMaterias materias={filterdMaterias} click={this.setActiveMateriaHandler} topicoID={topicoID} />
     }
 
     setMateriaHandler = (materia) => {
@@ -74,6 +98,7 @@ class Home extends Component {
     }
 
     render() {
+
         const slider = (this.props.topicos)
             ? (
                 <Slider
@@ -86,7 +111,7 @@ class Home extends Component {
 
         let topicHeader, areaMaterias = null
         if (this.props.activeTopico) {
-            topicHeader = <TopicHeader topico={this.setTopicosHandler(this.props.topicos, this.props.activeTopico.id)} />
+            topicHeader = <TopicHeader topico={this.getTopicoHandler(this.props.topicos, this.props.activeTopico.id)} />
             if (this.props.activeMateria)
                 areaMaterias = this.setMateriaHandler(this.props.activeMateria)
             else
@@ -99,6 +124,7 @@ class Home extends Component {
                 {topicHeader}
                 {areaMaterias}
                 <Footer />
+                <ScrollTop toShow={this.state.toShowScrollToTop}></ScrollTop>
             </div>
         )
     }
@@ -115,8 +141,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        onInitTopicos: () => dispatch(actions.initTopicos()),
-        onInitMaterias: () => dispatch(actions.initMaterias()),
+        onInitTopicos: (activeTopicoID) => dispatch(actions.initTopicos(activeTopicoID)),
+        onInitMaterias: (activeMateriaID) => dispatch(actions.initMaterias(activeMateriaID)),
         setActiveTopico: (topico) => dispatch(actions.setActiveTopico(topico)),
         setActiveMateria: (materia) => dispatch(actions.setActiveMateria(materia)),
         resetActiveTopico: () => dispatch(actions.setActiveTopico()),

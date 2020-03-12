@@ -2,6 +2,7 @@
   "name": "revistabienio20192020",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/2019-2020",
   "dependencies": {
     "@farbenmeer/react-spring-slider": "^1.1.0",
     "@testing-library/jest-dom": "^4.2.4",
