@@ -10,6 +10,7 @@ import { smothScroll } from '../../utils/utility'
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index'
 import ScrollTop from '../../components/ScrollTop/ScollTop';
+import { ROOT_FOLDER } from '../../utils/constants';
 
 
 class Home extends Component {
@@ -51,7 +52,7 @@ class Home extends Component {
         if (this.props.activeTopico) {
             if (this.props.activeTopico.id === topico.id) {
                 this.clearAllActives()
-                this.props.history.replace('');
+                this.props.history.replace( ROOT_FOLDER);
 
             } else {
                 this.props.setActiveTopico(topico)

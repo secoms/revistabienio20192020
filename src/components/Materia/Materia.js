@@ -33,7 +33,7 @@ const article = (props) => {
             </button>
             {mainTitle}
             {body}
-            <a href={'https://www.facebook.com/sharer.php?s=100&p[url]=http%3A%2F%2Flocalhost%3A3000%2F%3Ftopico%3D' + topicoID + '%26materia%3D' + materiaID + '&p[title]=sadadasdaqdasdasdasda'}
+            {/* <a href={'https://www.facebook.com/sharer.php?s=100&p[url]=http%3A%2F%2Flocalhost%3A3000%2F%3Ftopico%3D' + topicoID + '%26materia%3D' + materiaID + '&p[title]=sadadasdaqdasdasdasda'}
                 target="_blank"
             >facebook</a>
             <br />
@@ -46,7 +46,7 @@ const article = (props) => {
             <a href={'https://api.whatsapp.com/send?text=AAAAAAAAAAAAAAAAAAaa'}
                 target="_blank"
             >whatsapp</a>
-            <br />
+            <br /> */}
 
         </article>
     )
