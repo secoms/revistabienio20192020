@@ -6,3 +6,12 @@
 		text-decoration: none;
 	}
 }
+.Titulo {
+	span {
+		border: 7px solid transparent;
+		border-left: 7px solid;
+		display: inline-block;
+		margin-right: -5px;
+		margin-bottom: 2px;
+	}
+}

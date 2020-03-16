@@ -22,7 +22,7 @@ class Home extends Component {
         let activeTopicoID = null
         let activeMateriaID = null
 
-        var urlParams = new URLSearchParams(window.location.search);
+        const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.has('topico')) {
             activeTopicoID = urlParams.get('topico')
             if (urlParams.has('materia')) {
@@ -79,6 +79,13 @@ class Home extends Component {
     resetActiveMateriaHandler = (event) => {
         event.preventDefault()
         this.props.resetActiveMateria()
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.has('topico')) {
+            const activeTopicoID = urlParams.get('topico')
+            this.props.history.replace('?topico=' + activeTopicoID);
+        } else {
+            this.props.history.replace('?');
+        }
     }
 
     /**

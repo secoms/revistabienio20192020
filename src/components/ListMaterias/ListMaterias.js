@@ -8,9 +8,13 @@ const listMaterias = (props) => {
         links = props.materias.map(materia => {
             return (
                 <li key={materia.id}>
-                    <a href="#nulllink" className={classes.Link} onClick={(event) => props.click(event, materia, props.topicoID)}>
-                        <h2 >
-                            {materia.main.title}
+                    <a href="#nulllink"
+                        className={classes.Link}
+                        onClick={(event) => props.click(event, materia, props.topicoID)}
+                        alt={"Matéria: " + materia.main.title}
+                        title={"Matéria: " + materia.main.title}>
+                        <h2 className={classes.Titulo}>
+                            <span></span> {materia.main.title}
                         </h2>
                     </a>
                 </li>
